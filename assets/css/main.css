@@ -1,0 +1,190 @@
+body{
+    background-color: #043873;
+    font-family: 'Inter', sans-serif;
+}
+.container .flex-container .header-container{
+    width: 1920px;
+    height: 92px;
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+}
+.wrapper-logo svg{
+    width: 120px;
+    height: 26.46px;
+    top: 10px;
+    left: 80px;
+    position: relative;
+}
+ 
+ nav a{
+    width: 90px;
+    height: 19px;
+    top: -16px;
+    left: 540px;
+    color:  white;
+    font-size: 14px;
+    position: relative;
+    text-decoration: none;
+    display:  inline-flex;
+    justify-content: space-between;
+}
+input{
+    display: none;
+}
+.wrapper-registration{
+    width: 377px;
+    height: 60px;
+    left: 611px;
+}
+.wrapper-registration  .login{
+    background-color: #FFE492;
+    width: 80px;
+    height: 50px;
+    padding: 16px,40px,16px,40px;
+    color: #043873;
+ position: relative;
+ left: 961px;
+ top: -50px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+.wrapper-registration .btn{
+    background-color: #4F9CF9;
+    width: 227px;
+    height: 50px;
+padding: 16px,24px,16px,24px;
+color: white;
+position: relative;
+border-radius: 8px;
+border: none;
+top: -50px;
+left: 991px;
+}
+.container .flex-container .hero-section-container{
+    width: 1920px;
+    height: 829px;
+    top: 92px;
+    padding: 140px,220px,140px,220px;
+}
+.hero-text-container{
+    width: 656px;
+    height: 238px;
+}
+.wrapper-main-hero-text{
+    color: white;
+    width: 656px;
+    height: 154px;
+    font-size: 34px;
+    left: 80px;
+    position: relative;
+}
+.wrapper-details-hero-text{
+    width: 506px;
+    height: 60px;
+    font-size: 15px;
+    top: -20px;
+    left: 80px;
+    color: white;
+    position: relative;
+}
+.wrapper-button button{
+    width: 189px;
+    height: 63px;
+    top: 8px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #4F9CF9;
+    color: white;
+    border: none;
+    left: 80px;
+    position: relative;
+}
+.image-container{
+    background-color: #C4DEFD;
+    width: 654px;
+    height: 449px;
+    top: -300px;
+    left: 740px;
+    position: relative;
+}
+header .wrapper-top-header .menu span{
+    display: block;
+    background-image: url("../img/Hum-menu.svg");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+ [for=burger]{
+    display: none;
+}
+ @media screen and ( max-width: 663px){
+    .wrapper-logo{
+        width: 100px;
+        left: -60px;
+        position: fixed;
+    }
+    [for=burger]{
+        display: block;
+        left: 320px;
+        position:  relative;
+        width: 30px;
+        text-align: center;
+        color: white;
+        top: 10px;
+    }
+    .navigation{
+        display: none;
+        background-color: red;
+    }
+    #burger:checked + label + nav{
+        display: block;
+    }
+    nav {
+        display: none;
+        position:  fixed;
+        width: 100px;
+        height: 19px;
+        left: -330px;
+        top: 35px;
+    }
+    nav a{
+        background-color: #4F9CF9;
+        width: 100px;
+      text-decoration: none;
+    }
+    input{
+        display: none;
+    }
+    .container .flex-container .header-container{
+        width: 100px;
+        height: 100px;
+        left: 10px;
+    }
+.wrapper-registration{
+    display: none;
+}
+ .wrapper-main-hero-text{
+    width: 290px;
+    font-size: 25px;
+ left: 50px;
+ top: 50px;
+ }
+ .wrapper-details-hero-text{
+    width: 300px;
+    font-size: 15px;
+    left: 50px;
+    justify-content: center;
+ }
+ .wrapper-button {
+    left: 80px;
+ }
+ .image-container{
+    width: 350px;
+    height: 220px;
+    left: 13px;
+    top: 50px;
+ }
+ }
+ 
